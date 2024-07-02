@@ -20,17 +20,39 @@
   a:hover {
     transform: scale(1.05);
   }
+
+  p:hover {
+    cursor: pointer;
+  }
 }
 
 .projectsContainer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 30px;
+  gap: 60px;
+}
+
+.eachCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.projectDetails {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.smallIcon {
+  width: 40px;
 }
 
 @media (width >= 800px) {
-  .projectContainer {
+  .projectsContainer {
+    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;

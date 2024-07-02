@@ -1,10 +1,10 @@
 import React from "react";
 import styles from "./ProjectStyles.module.css";
-import viberr from "../../assets/viberr.png";
-import freshBurger from "../../assets/fresh-burger.png";
-import hipsster from "../../assets/hipsster.png";
-import fitlift from "../../assets/fitlift.png";
-
+import netflix from "../../assets/netflix.jpeg";
+import expert from "../../assets/expert.png";
+import travelerList from "../../assets/traveller-list.jpeg";
+import monster from "../../assets/monsterr.jpeg";
+import dice from "../../assets/dice.jpg";
 import ProjectCard from "../../common/ProjectCard";
 
 function Projects() {
@@ -13,28 +13,34 @@ function Projects() {
       <h1 className="sectionTitle">Projects</h1>
       <div className={styles.projectsContainer}>
         <ProjectCard
-          src={viberr}
-          link="www.google.com"
-          h3="Viberr"
-          p="Streaming App"
+          src={netflix}
+          hostLink="https://practisenetflix.netlify.app"
+          h3="Netflix Clone"
+          githubLink="https://github.com/pauljsd/Netflix-Landing-Page-Clone"
         />
         <ProjectCard
-          src={freshBurger}
-          link="www.google.com"
-          h3="Viberr"
-          p="Fresh Burger"
+          src={expert}
+          hostLink="https://expertscorneradminlive.netlify.app/"
+          h3="Expert Corner"
+          githubLink="https://github.com/pauljsd/finalExpertCorner"
         />
         <ProjectCard
-          src={hipsster}
-          link="www.google.com"
-          h3="Hipsster"
-          p="Glasses Shop"
+          src={travelerList}
+          hostLink="https://traveller-list.netlify.app/"
+          h3="Traveller List"
+          githubLink="https://github.com/pauljsd/traveler-list"
         />
         <ProjectCard
-          src={fitlift}
-          link="www.google.com"
-          h3="FitLift"
-          p="Fitness App"
+          src={monster}
+          hostLink="https://monnsterapp.netlify.app/"
+          h3="Monster App"
+          githubLink="https://github.com/pauljsd/monster-react-app"
+        />
+        <ProjectCard
+          src={dice}
+          hostLink="https://randomnumberguess-game.netlify.app/"
+          h3="Guess Game"
+          githubLink="https://github.com/pauljsd/Guess-my-number-game"
         />
       </div>
     </section>

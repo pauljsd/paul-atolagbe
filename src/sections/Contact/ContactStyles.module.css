@@ -4,6 +4,21 @@
   text-align: center;
 }
 
+span {
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+  margin-bottom: 40px;
+
+  a {
+    margin: 0;
+
+    img {
+      width: 50px;
+    }
+  }
+}
+
 form {
   display: flex;
   flex-direction: column;
@@ -72,6 +87,5 @@ input[type="submit"]:hover {
   textarea,
   input:not([type="submit"]) {
     width: 800px;
-    font-size: 20px;
   }
 }
