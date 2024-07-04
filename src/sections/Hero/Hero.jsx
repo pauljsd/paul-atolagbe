@@ -59,11 +59,11 @@ function Hero() {
         </span>
         <p className={styles.description}>
           Paul is a passionate web and mobile application developer flair for
-          creating dynamic and user-friendly digital experiences. With expertise
-          in front-end development, I bring innovative solutions to life,
-          ensuring seamless performance and exceptional design. I am dedicated
-          to delivering high-quality projects that meet client needs and exceed
-          expectations. Remove this
+          creating dynamic and user-friendly digital experiences. Frank is
+          here!!! With expertise in front-end development, I bring innovative
+          solutions to life, ensuring seamless performance and exceptional
+          design. I am dedicated to delivering high-quality projects that meet
+          client needs and exceed expectations. Remove this
         </p>
         <a href={CV} download>
           <button className="hover">See Resume oo</button>
