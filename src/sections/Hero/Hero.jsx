@@ -66,7 +66,7 @@ function Hero() {
           expectations.
         </p>
         <a href={CV} download>
-          <button className="hover">Resume</button>
+          <button className="hover">See Resume</button>
         </a>
       </div>
     </section>
