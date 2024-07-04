@@ -58,7 +58,7 @@ function Hero() {
           </a>
         </span>
         <p className={styles.description}>
-          I am a passionate web and mobile application developer flair for
+          Paul is a passionate web and mobile application developer flair for
           creating dynamic and user-friendly digital experiences. With expertise
           in front-end development, I bring innovative solutions to life,
           ensuring seamless performance and exceptional design. I am dedicated
