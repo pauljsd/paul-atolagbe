@@ -63,7 +63,7 @@ function Hero() {
           in front-end development, I bring innovative solutions to life,
           ensuring seamless performance and exceptional design. I am dedicated
           to delivering high-quality projects that meet client needs and exceed
-          expectations.
+          expectations. Remove this
         </p>
         <a href={CV} download>
           <button className="hover">See Resume oo</button>
