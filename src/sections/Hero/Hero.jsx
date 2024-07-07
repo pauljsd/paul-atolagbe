@@ -38,7 +38,7 @@ function Hero() {
       <div className={styles.info}>
         <h1>Paul Atolagbe</h1>
         {/* <h1>Software QA Analyst</h1> */}
-        <h1>FrontEnd Engineer</h1>
+        <h1>Quality Assurance Engineer</h1>
         <span>
           <a href="https://x.com/paul_JSD" target="_blank">
             <img src={twitterIcon} alt="Twitter Icon" />
@@ -58,15 +58,15 @@ function Hero() {
           </a>
         </span>
         <p className={styles.description}>
-          Paul is a passionate web and mobile application developer flair for
-          creating dynamic and user-friendly digital experiences. Frank is
-          here!!! With expertise in front-end development, I bring innovative
-          solutions to life, ensuring seamless performance and exceptional
-          design. I am dedicated to delivering high-quality projects that meet
-          client needs and exceed expectations. Remove this
+          Paul is a passionate Quality Assurance Engineer. With experience in
+          web and mobile application development, I ensure development team
+          bring innovative solutions to life, ensuring seamless performance and
+          exceptional user experience for application end user. I am dedicated
+          to delivering high-quality projects that meet client needs and exceed
+          users expectation.
         </p>
         <a href={CV} download>
-          <button className="hover">See Resume oo</button>
+          <button className="hover">Resume</button>
         </a>
       </div>
     </section>

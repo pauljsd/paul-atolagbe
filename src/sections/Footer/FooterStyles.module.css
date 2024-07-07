@@ -3,6 +3,7 @@
 
   p {
     font-size: 16px;
+    font-weight: bolder;
     color: var(--footer-text-color);
   }
 }
