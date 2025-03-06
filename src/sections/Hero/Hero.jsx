@@ -9,7 +9,7 @@ import linkedinDark from "../../assets/linkedin-dark.svg";
 import githubLight from "../../assets/github-light.svg";
 import githubDark from "../../assets/github-dark.svg";
 import whatsappIcon from "../../assets/whatSappIcon.png";
-import CV from "../../assets/CV Paul Atolagbe Ayobami.pdf";
+import CV from "../../assets/QA_CV Paul Atolagbe.docx.pdf";
 import { useTheme } from "../../common/ThemeContent";
 
 function Hero() {
